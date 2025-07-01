@@ -245,4 +245,3 @@ while True:
         last_encoder_right = r_state
 
     time.sleep(0.01)
-
