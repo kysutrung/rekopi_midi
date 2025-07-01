@@ -190,13 +190,13 @@ while True:
     for i, btn in enumerate(buttons):
         current = btn.value
         if not current and last_states[i]:
-            if not (MODE_VAR == 1 and i in (0, 2)):
+            if not (MODE_VAR == 1 and i in (0, 3)):
                 note = get_note_number(MODE_VAR, i)
                 send_midi_note_on(note)
                 print(f"Note ON: {note}")
                 key_light_press(7 - i)
         elif current and not last_states[i]:
-            if not (MODE_VAR == 1 and i in (0, 2)):
+            if not (MODE_VAR == 1 and i in (0, 3)):
                 note = get_note_number(MODE_VAR, i)
                 send_midi_note_off(note)
                 print(f"Note OFF: {note}")
