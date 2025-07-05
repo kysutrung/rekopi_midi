@@ -1,11 +1,8 @@
-import board
-import digitalio
 import storage
+import usb_cdc
+import usb_midi
 
-button = digitalio.DigitalInOut(board.GP15)
-button.switch_to_input(pull=digitalio.Pull.UP)
+storage.disable_usb_drive()
 
-if button.value:
-    storage.enable_usb_drive()
-else:
-    storage.disable_usb_drive()
+usb_cdc.enable(console=True, data=True)
+usb_midi.enable()
