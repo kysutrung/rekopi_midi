@@ -8,7 +8,7 @@ DJ mixer mini phiên bản đầu tiên của hãng Rekopi. Với 7 núm vặn, 
 
 [Bấm vào đây để xem hướng dẫn sử dụng.](https://github.com/kysutrung/rekopi_midi/blob/main/HDSD%20REKOPI%20RMX00%20REKORDBOX.pdf)
 
-## REKOPI C00
+## REKOPI B00
 
 Bo mạch phát triển thiết bị MIDI tiện dụng, giá rẻ.
 
