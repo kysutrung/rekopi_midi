@@ -1,2 +1,7 @@
-# rekopi_midi
-Hướng dẫn sử dụng cho các dòng bàn mixer của REKOPI
+# HƯỚNG DẪN SỬ DỤNG THIẾT BỊ CỦA HÃNG REKOPI
+
+## REKOPI RMX00
+
+
+
+
